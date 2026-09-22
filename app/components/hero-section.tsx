@@ -1,4 +1,3 @@
-import Link from "next/link";
 import { Container } from "@/app/components/container";
 
 export function HeroSection() {
@@ -14,20 +13,6 @@ export function HeroSection() {
             Quality products, fair pricing and dependable service are what
             keep Haitian motorists moving.
           </p>
-          <div className="mt-10 flex flex-col items-center justify-center gap-4 sm:flex-row">
-            <Link
-              href="#activities"
-              className="inline-flex items-center justify-center rounded-full bg-primary px-7 py-3.5 text-sm font-semibold text-white transition-colors hover:bg-primary-dark"
-            >
-              Discover Our Activities
-            </Link>
-            <Link
-              href="#contact"
-              className="inline-flex items-center justify-center rounded-full border border-border px-7 py-3.5 text-sm font-semibold text-foreground transition-colors hover:border-primary hover:text-primary"
-            >
-              Contact Us
-            </Link>
-          </div>
         </div>
       </Container>
     </section>
